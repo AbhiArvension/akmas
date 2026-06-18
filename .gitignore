@@ -1,0 +1,15 @@
+# Dependencies
+webapp/node_modules/
+conductor/node_modules/
+
+# Next.js build output
+webapp/.next/
+webapp/out/
+
+# OS
+.DS_Store
+
+# Env files
+.env
+.env.local
+.env*.local

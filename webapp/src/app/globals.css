@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Pleasant Midnight Sapphire Palette - More vibrant and "pleasant" deep blue */
+  --color-navy-50: #f0f7ff;
+  --color-navy-100: #e0effe;
+  --color-navy-200: #bae0fd;
+  --color-navy-300: #7cc8fb;
+  --color-navy-400: #38aef7;
+  --color-navy-500: #0e91e9;
+  --color-navy-600: #0273ca;
+  --color-navy-700: #035ba3;
+  --color-navy-800: #074e86;
+  --color-navy-900: #0a3d62; /* Main Pleasant Deep Blue - Sapphire */
+  --color-navy-950: #05233d; /* Darkest shade, still clearly blue */
+
+  /* Premium Harvest Gold - More sophisticated than bright yellow */
+  --color-gold-50: #fff9eb;
+  --color-gold-100: #ffefc7;
+  --color-gold-200: #ffd98a;
+  --color-gold-300: #ffbc4d;
+  --color-gold-400: #f99c1b;
+  --color-gold-500: #f5820b;
+  --color-gold-600: #d96106;
+  --color-gold-700: #b44509;
+  --color-gold-800: #92370e;
+  --color-gold-900: #782e0f;
+  --color-gold-950: #451603;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a3d62;
+}
+
+.dark {
+  --background: #09090b; /* zinc-950 */
+  --foreground: #fafafa; /* zinc-50 */
+}
+
+body {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
