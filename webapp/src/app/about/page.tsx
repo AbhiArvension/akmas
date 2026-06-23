@@ -70,11 +70,6 @@ export default function AboutPage() {
                   className="object-cover"
                 />
               </div>
-              <div className="absolute -top-6 -left-6 w-24 h-24 relative z-10">
-                <div className="w-24 h-24 relative">
-                  <Image src="/images/logo.png" alt="AKMAS Logo" fill className="object-contain drop-shadow-xl" />
-                </div>
-              </div>
             </div>
           </div>
         </div>
