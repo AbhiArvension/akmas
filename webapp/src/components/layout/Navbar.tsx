@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, GraduationCap, Sun, Moon, Globe } from "lucide-react";
+import { Menu, X, Sun, Moon, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
 import { useLanguage } from "@/context/LanguageContext";
@@ -49,8 +50,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 lg:space-x-3 shrink-0 min-w-0 mr-4">
-            <div className={cn("p-2 rounded-full transition-colors shrink-0", scrolled ? "bg-navy-800 dark:bg-gold-500 text-white dark:text-zinc-950" : "bg-gold-500 text-navy-950")}>
-              <GraduationCap className="h-5 w-5 md:h-6 md:w-6" />
+            <div className="shrink-0 w-10 h-10 md:w-12 md:h-12 relative">
+              <Image src="/images/logo.png" alt="AKMAS College Logo" fill className="object-contain" />
             </div>
             {/* Desktop Title */}
             <div className="hidden lg:block truncate">
@@ -61,7 +62,7 @@ export default function Navbar() {
                 {language === "en" ? (
                   <>Educate · Excel · <span className="text-gold-500 font-bold">Empower</span></>
                 ) : (
-                  <>വിദ്യ · മികവ് · <span className="text-gold-500 font-bold">ശക്തി</span></>
+                  <>Educate · Excel · <span className="text-gold-500 font-bold">Empower</span></>
                 )}
               </p>
             </div>

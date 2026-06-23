@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { GraduationCap, Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
@@ -14,11 +15,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand Column */}
           <div className="space-y-6">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="p-2 bg-gold-500 rounded-full text-navy-950 shrink-0">
-                <GraduationCap className="h-6 w-6" />
+            <Link href="/" className="flex items-center space-x-3">
+              <div className="w-12 h-12 relative shrink-0">
+                <Image src="/images/logo.png" alt="AKMAS Logo" fill className="object-contain" />
               </div>
-              <span className="text-xl font-bold tracking-tight leading-tight">{t("collegeName")}</span>
+              <span className="text-base font-bold tracking-tight leading-tight">{t("collegeName")}</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               {t("established")}. {t("affiliation")}.
