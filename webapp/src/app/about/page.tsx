@@ -75,43 +75,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Principal's Desk */}
-      <section className="py-24 bg-navy-50 dark:bg-zinc-950 border-t border-gray-200 dark:border-zinc-800">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 text-gold-600 dark:text-gold-500 font-bold tracking-widest uppercase text-sm mb-4">
-              <div className="w-8 h-px bg-gold-600 dark:bg-gold-500"></div>
-              <span>{t("principalDeskTitle")}</span>
-              <div className="w-8 h-px bg-gold-600 dark:bg-gold-500"></div>
-            </div>
-          </div>
-          <div className="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
-            <div className="shrink-0 flex flex-col items-center space-y-4">
-              <div className="relative w-48 h-56 rounded-2xl overflow-hidden shadow-xl border-4 border-gold-500">
-                <Image
-                  src="/images/principal.jpg"
-                  alt="Dr. Remyasree S."
-                  fill
-                  className="object-cover object-top"
-                />
-              </div>
-              <div className="text-center">
-                <p className="font-bold text-navy-900 dark:text-white text-lg">{t("principalName")}</p>
-                <p className="text-gold-600 dark:text-gold-500 text-sm font-medium">{t("principalRole")}</p>
-              </div>
-            </div>
-            <div className="relative bg-white dark:bg-zinc-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-zinc-800">
-              <Quote className="h-10 w-10 text-gold-200 dark:text-gold-900 absolute top-6 left-6" />
-              <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg relative z-10 pt-4">
-                {t("principalMessage")}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Chairman's Message */}
-      <section className="py-24 bg-white dark:bg-zinc-900">
+      <section className="py-24 bg-navy-50 dark:bg-zinc-950 border-t border-gray-200 dark:border-zinc-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 text-gold-600 dark:text-gold-500 font-bold tracking-widest uppercase text-sm mb-4">
@@ -135,10 +100,45 @@ export default function AboutPage() {
                 <p className="text-gold-600 dark:text-gold-500 text-sm font-medium">Chairman, Ayyankali Cultural Trust</p>
               </div>
             </div>
-            <div className="relative bg-navy-50 dark:bg-zinc-950 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-zinc-800">
+            <div className="relative bg-white dark:bg-zinc-900 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-zinc-800">
               <Quote className="h-10 w-10 text-gold-200 dark:text-gold-900 absolute top-6 left-6" />
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg relative z-10 pt-4">
                 "Education is the most powerful weapon which you can use to change the world. Ayyankali Memorial Arts &amp; Science College was founded to ensure that this weapon reaches every student, without exception. Our doors are open to all — because talent knows no boundary, and every young person deserves the opportunity to rise."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Principal's Desk */}
+      <section className="py-24 bg-white dark:bg-zinc-900">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center space-x-2 text-gold-600 dark:text-gold-500 font-bold tracking-widest uppercase text-sm mb-4">
+              <div className="w-8 h-px bg-gold-600 dark:bg-gold-500"></div>
+              <span>{t("principalDeskTitle")}</span>
+              <div className="w-8 h-px bg-gold-600 dark:bg-gold-500"></div>
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center gap-12 max-w-5xl mx-auto">
+            <div className="shrink-0 flex flex-col items-center space-y-4">
+              <div className="relative w-48 h-56 rounded-2xl overflow-hidden shadow-xl border-4 border-gold-500">
+                <Image
+                  src="/images/principal.jpg"
+                  alt="Dr. Remyasree S."
+                  fill
+                  className="object-cover object-top"
+                />
+              </div>
+              <div className="text-center">
+                <p className="font-bold text-navy-900 dark:text-white text-lg">{t("principalName")}</p>
+                <p className="text-gold-600 dark:text-gold-500 text-sm font-medium">{t("principalRole")}</p>
+              </div>
+            </div>
+            <div className="relative bg-navy-50 dark:bg-zinc-950 rounded-2xl p-8 shadow-lg border border-gray-100 dark:border-zinc-800">
+              <Quote className="h-10 w-10 text-gold-200 dark:text-gold-900 absolute top-6 left-6" />
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg relative z-10 pt-4">
+                {t("principalMessage")}
               </p>
             </div>
           </div>
