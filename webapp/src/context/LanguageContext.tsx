@@ -17,7 +17,7 @@ const dictionaries: Record<Language, any> = {
     collegeName: "Ayyankali Memorial Arts & Science College",
     collegeNameShort: "AMAS College",
     location: "Kuryottumala, Vettithitta P.O, Pathapuram, Kollam, Pin–689696",
-    tagline: "Educate · Excellent · Empower",
+    tagline: "Educate · Excel · Empower",
     heroSubtitle: "Where Knowledge Meets Excellence",
     aboutSubtitle: "A legacy of academic excellence, rooted in the vision of Mahatma Ayyankali.",
     established: "Estab: 2015, Government Aided College",
@@ -42,17 +42,17 @@ const dictionaries: Record<Language, any> = {
     ],
     majorDisciplines: "Major Disciplines",
     majors: [
-      { name: "B.Sc. Mathematics", desc: "FYUGP Honour in Mathematics" },
+      { name: "B.Sc. Mathematics", desc: "FYUGP Honours in Mathematics" },
       { name: "B.A. English", desc: "FYUGP Honours in English" },
-      { name: "B.A. Economics", desc: "FYUGP Honour in Economics" },
+      { name: "B.A. Economics", desc: "FYUGP Honours in Economics" },
       { name: "B.Com Co-operation", desc: "FYUGP Honour in B.Com Co-operation" },
-      { name: "B.Com Accounts & Data Science", desc: "FYUGP Honour in B.Com Co-operation" }
+      { name: "B.Com Accounts & Data Science", desc: "FYUGP Honours in B.Com Accounts & Data Science" }
     ],
     minorDisciplines: "Minor Disciplines",
     minors: [
-      "English", "Economics", "B.Com Co-operation", 
-      "B.Sc. Mathematics", "B.Com Accounts and Data Science", "Physics", 
-      "Statistics", "Journalism"
+      "English", "Economics", "B.Com Co-operation",
+      "B.Sc. Mathematics", "B.Com Accounts and Data Science",
+      "Physics", "Statistics", "Journalism"
     ],
     highlightsTitle: "College Highlights",
     highlights: [
