@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">{t("about")}</h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            {t("tagline")}
+            {t("aboutSubtitle")}
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function AboutPage() {
                   <ShieldCheck className="h-6 w-6 text-gold-500 shrink-0" />
                   <div>
                     <h4 className="font-bold text-navy-900 dark:text-white">Mission</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Providing affordable, high-quality education to rural and underprivileged students.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Providing affordable, high-quality education to every student, nurturing talent and building futures together.</p>
                   </div>
                 </div>
               </div>

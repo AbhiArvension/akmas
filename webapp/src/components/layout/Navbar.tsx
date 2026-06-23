@@ -58,7 +58,11 @@ export default function Navbar() {
                 {t("collegeName")}
               </h1>
               <p className={cn("text-[10px] xl:text-xs font-medium uppercase tracking-wider mt-1 truncate", scrolled ? "text-navy-600 dark:text-gray-400" : "text-gray-300")}>
-                {t("tagline")}
+                {language === "en" ? (
+                  <>Educate · Excellent · <span className="text-gold-500 font-bold">Empower</span></>
+                ) : (
+                  <>വിദ്യ · മികവ് · <span className="text-gold-500 font-bold">ശക്തി</span></>
+                )}
               </p>
             </div>
             {/* Mobile Title */}

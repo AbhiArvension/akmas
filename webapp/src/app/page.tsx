@@ -28,7 +28,7 @@ export default function Home() {
               {t("collegeName")}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gold-400 font-medium tracking-wide">
-              {t("tagline")}
+              {t("heroSubtitle")}
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
