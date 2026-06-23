@@ -6,7 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
   const { t } = useLanguage();
-  const minors = t("minors") || [];
+  const majors = t("majors") || [];
   
   return (
     <footer className="bg-navy-900 dark:bg-zinc-950 text-white pt-16 pb-8 border-t border-navy-800 dark:border-zinc-800">
@@ -39,17 +39,17 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Minors / Offerings */}
+          {/* Majors */}
           <div>
             <h3 className="text-lg font-bold mb-6 relative inline-block">
-              {t("minorDisciplines")}
+              {t("majorDisciplines")}
               <span className="absolute -bottom-1 left-0 w-1/2 h-0.5 bg-gold-500"></span>
             </h3>
             <ul className="space-y-3 text-sm text-gray-400">
-              {minors.slice(0, 5).map((minor: string, i: number) => (
+              {majors.map((major: { name: string }, i: number) => (
                 <li key={i} className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0"></span>
-                  <span>{minor}</span>
+                  <span>{major.name}</span>
                 </li>
               ))}
             </ul>

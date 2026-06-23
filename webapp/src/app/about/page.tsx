@@ -33,25 +33,25 @@ export default function AboutPage() {
                 {t("collegeName")}
               </h2>
               <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-                Established in 2015 as a Government Aided College, we are proudly affiliated to the University of Kerala and managed by the Ayyankali Cultural Trust. 
+                Established in 2015, Ayyankali Memorial Arts &amp; Science College is a Government Aided institution affiliated to the University of Kerala and managed by the Ayyankali Cultural Trust.
               </p>
               <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-                Named after the legendary social reformer Mahatma Ayyankali, the institution embodies his spirit of defiance against social inequality and his firm belief that education is the ultimate tool for liberation.
+                Named after the legendary social reformer Mahatma Ayyankali, the college carries forward his timeless belief that education is the foundation of a just and progressive society — welcoming every student equally, regardless of background.
               </p>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
                 <div className="flex items-start space-x-3">
                   <Target className="h-6 w-6 text-gold-500 shrink-0" />
                   <div>
                     <h4 className="font-bold text-navy-900 dark:text-white">Vision</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">To be a center of excellence that fosters social justice and academic brilliance.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">To be a center of academic excellence that nurtures every student to reach their fullest potential.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <ShieldCheck className="h-6 w-6 text-gold-500 shrink-0" />
                   <div>
                     <h4 className="font-bold text-navy-900 dark:text-white">Mission</h4>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Providing affordable, high-quality education to every student, nurturing talent and building futures together.</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Providing quality education to every student, nurturing talent and building futures together.</p>
                   </div>
                 </div>
               </div>
